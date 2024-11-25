@@ -1,0 +1,85 @@
+.logo{
+    width: auto;
+    height: 50px;
+}
+.navbar{
+    padding: 30px 10px;
+}
+.nav-sub{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    background: red;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.section1{
+    display: grid;
+    justify-content: center;
+    width: 90%;
+    
+    padding: 80px 30px;
+    margin: auto;
+    background-color: #ff00001a;
+    align-items: center;
+    border-radius: 20px;
+}
+.sec1-inner{
+    width: auto;
+    height: auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 40px 0px;
+}
+.sec1-left{
+    width: 300px;
+    height: 60vh;
+    background-color: red;
+    border-radius: 15px;
+    position: relative;
+    right: 50px;
+    box-shadow: 0 2px 9px #000;
+    padding: 10px;
+}
+.list{
+    padding: 30px 0px;
+}
+.icon{
+    width: 15px;
+    height: 15px;
+}
+.inner-text{
+    font-size: 10px;
+    padding-left: 5px;
+}
+.p{
+    font-weight: 700;
+    padding: 15px;
+}
+.a{
+    color: red;
+    background-color: white;
+    border: 1px solid red;
+    margin: 15px;
+    padding: 5px;
+    border-radius: 20px;
+
+}
+.w-input{
+    border-radius: 15px;
+    border: 1px solid black;
+    width: 100%;
+}
+@media screen and (max-width: 768px){
+    .sec1-left{
+        position: static;
+    }
+    .sec1-inner{
+        align-items: center;
+    }
+}
+@media screen and (max-width: 568px){
+    .nav-sub{
+        display: none;
+    }
+}

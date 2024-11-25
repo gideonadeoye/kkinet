@@ -1,0 +1,55 @@
+.logo{
+    width: auto;
+    height: 50px;
+}
+.navbar{
+    padding: 5px 10px;
+    font-size: 10px;
+}
+.nav-sub{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    background: red;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+
+   
+.inner-logo{
+    width: 15px;
+    height: 15px;
+    padding: 5px;
+}
+.sec1-form{
+    padding: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.p{
+    padding: 10px 0px;
+}
+.b{
+    font-weight: 600;
+}
+.center{
+    text-align: center;
+    margin: auto;
+    padding: 30px;
+}
+.a{
+    color: black;
+    background-color: red;
+    border: 0px;
+    margin-top: 30px;
+    padding: 10px;
+}
+.w-input{
+    width: 100%;
+}
+@media screen and (max-width: 568px){
+    .nav-sub{
+        display: none;
+    }
+}

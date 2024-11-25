@@ -1,0 +1,45 @@
+.logo{
+    width: auto;
+    height: 50px;
+}
+.navbar{
+    padding: 5px 30px;
+}
+.nav-sub{
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    background: red;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.section1{
+    padding: 50px;
+}
+.section1-header{
+    padding: 40px 0px;
+    margin: auto;
+    text-align: center;
+    
+}
+.carousel-inner{
+    padding: 1em;
+
+}
+
+@media screen and (min-width:576px){
+    .carousel-inner{
+        display: flex;
+    }
+    .carousel-item{
+        display: block;
+        margin-right: 0;
+       flex: 0 0 calc(100%/3);
+    }
+    
+}
+@media screen and (max-width: 568px){
+    .nav-sub{
+        display: none;
+    }
+}
